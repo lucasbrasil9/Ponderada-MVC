@@ -7,16 +7,16 @@ As baseado nas imagens fornecidas, aqui está uma descrição detalhada e uma ex
 O Modelo-Visão-Controlador (MVC) é uma estrutura conceitual que divide uma aplicação em três componentes interconectados.
 
 - **Modelo (Model)**: Contém a lógica de dados da aplicação. No diagrama, há duas entidades principais:
-  - **Usuário (User)**: Com atributos como ID, Nome, E-mail, Senha, Idade, Local, Gênero, Pontos, e Customização.
-  - **Publicação (Post)**: Com atributos como ID, Título, Conteúdo, Anexos, e UserID.
+  - **Usuário (User)**: Com atributos como ID, Nome, E-mail, Senha, Idade, Local, Gênero, Pontos, e Customização do mascote liberadas ao completar tasks.
+  - **Publicação (Post)**: Com atributos como ID do post, Título, Conteúdo publicado, Anexos (Categoria da ação e em qual ONG foi realizada) e UserID.
 
 - **Visão (View)**: É a interface de usuário da aplicação, onde os dados do modelo são apresentados ao usuário. No diagrama, há duas visões principais:
   - **Login**: Onde os usuários entram em suas contas.
-  - **Publicações**: Onde os usuários veem e interagem com as publicações.
+  - **Publicações**: Onde os usuários veem, publiquem e interagem com as publicações.
 
 - **Controlador (Controller)**: Contém a lógica de controle que responde às ações do usuário, manipula os dados do modelo e seleciona a visão a ser apresentada. As ações no diagrama incluem:
-  - **Login do Usuário**: Inclui operações como Verificar, Cadastrar, e Apresentar.
-  - **Publicações**: Inclui operações como Criar, Apresentar e Deletar.
+  - **Login do Usuário**: Inclui operações como Verificar se a conta já existe, Cadastrar, e Apresentar as informações para login.
+  - **Publicações**: Inclui operações como Criar, Apresentar as informações da publicação e Deletar.
 
 ### Segunda Imagem: Tecnologias Utilizadas
 
